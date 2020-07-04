@@ -16,9 +16,6 @@ public class CityRestController {
 	
 	@Autowired
 	private CityService cityService;
-
-	@Autowired
-	private WeatherService weatherService;
 	
 	@GetMapping("/api/cities/{city}")
 	public ResponseEntity<CityInfo> getWeather(@PathVariable("city") String cityName) {
@@ -30,12 +27,6 @@ public class CityRestController {
 			return new ResponseEntity<CityInfo>( HttpStatus.NOT_FOUND);
 
 		} else {
-
-			// get current weather
-			TempAndTime weather = weatherService.getTempAndTime(cityName);
-			// convert temp from degrees Kelvin to degrees Fahrenheit
-			double tempF = Math.round((weather.getTemp() - 273.15) * 9.0/5.0 + 32.0);
-			restCity.setTemp(tempF);
 
 			// return 200 status code (OK) and city information in JSON format
 			return new ResponseEntity<CityInfo>(restCity, HttpStatus.OK);

@@ -11,6 +11,9 @@ public class CityInfo {
 	 double temp;
 	 String time;
 	 
+	 public CityInfo () {
+	 }
+
 	 public CityInfo(City city, String countryName, double temp, String time) {
 		 this.id = city.getId();
 		 this.name = city.getName();
