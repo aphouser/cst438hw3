@@ -1,11 +1,8 @@
 package cst438hw2.domain;
 
-import java.text.DateFormat;
 import java.text.DecimalFormat;
-import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.ZoneOffset;
-import java.util.Date;
 
 public class TempAndTime {
 	public double temp;
