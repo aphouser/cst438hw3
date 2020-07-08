@@ -140,7 +140,5 @@ public class CityServiceTest {
 
 		// Assertions
 		assertThat(cityResult).isEqualTo(expectedResult);
-
 	}
-
 }

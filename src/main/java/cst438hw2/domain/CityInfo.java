@@ -82,75 +82,33 @@ public class CityInfo {
 		return true;
 	}
 
-	public long getId() {
-		return id;
-	}
+	public long getId() { return id; }
+	public void setId(long id) { this.id = id; }
 
-	public void setId(long id) {
-		this.id = id;
-	}
+	public String getName() { return name; }
+	public void setName(String name) { this.name = name; }
 
-	public String getName() {
-		return name;
-	}
+	public String getCountryCode() { return countryCode; }
+	public void setCountryCode(String countryCode) { this.countryCode = countryCode; }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+	public String getCountryName() { return countryName; }
+	public void setCountryName(String countryName) { this.countryName = countryName; }
 
-	public String getCountryCode() {
-		return countryCode;
-	}
+	public String getDistrict() { return district; }
+	public void setDistrict(String district) { this.district = district; }
 
-	public void setCountryCode(String countryCode) {
-		this.countryCode = countryCode;
-	}
+	public int getPopulation() { return population; }
+	public void setPopulation(int population) { this.population = population; }
 
-	public String getCountryName() {
-		return countryName;
-	}
+	public double getTemp() { return temp; }
+	public void setTemp(double temp) { this.temp = temp; }
 
-	public void setCountryName(String countryName) {
-		this.countryName = countryName;
-	}
-
-	public String getDistrict() {
-		return district;
-	}
-
-	public void setDistrict(String district) {
-		this.district = district;
-	}
-
-	public int getPopulation() {
-		return population;
-	}
-
-	public void setPopulation(int population) {
-		this.population = population;
-	}
-
-	public double getTemp() {
-		return temp;
-	}
-
-	public void setTemp(double temp) {
-		this.temp = temp;
-	}
-
-	public String getTime() {
-		return time;
-	}
-
-	public void setTime(String time) {
-		this.time = time;
-	}
+	public String getTime() { return time;}
+	public void setTime(String time) { this.time = time; }
 
 	@Override
 	public String toString() {
 		return "CityInfo [id=" + id + ", name=" + name + ", countryCode=" + countryCode + ", countryName=" + countryName
 				+ ", district=" + district + ", population=" + population + ", temp=" + temp + ", time=" + time + "]";
 	}
-	 
-	 
 }

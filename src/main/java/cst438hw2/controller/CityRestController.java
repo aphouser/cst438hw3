@@ -25,12 +25,9 @@ public class CityRestController {
 		if (restCity == null) {
 			// city name not found.  Send 404 return code.
 			return new ResponseEntity<CityInfo>( HttpStatus.NOT_FOUND);
-
 		} else {
-
 			// return 200 status code (OK) and city information in JSON format
 			return new ResponseEntity<CityInfo>(restCity, HttpStatus.OK);
 		}
 	}
-	
 }
