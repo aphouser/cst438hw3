@@ -9,7 +9,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>cst438</groupId>
-  <artifactId>cst438hw2</artifactId>
+  <artifactId>cst438hw3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>cst438hw3</name>
   <description>cst438 homework 2 rest controller</description>
@@ -68,6 +68,16 @@
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-amqp</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.amqp</groupId>
+      <artifactId>spring-rabbit-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
   <build>
