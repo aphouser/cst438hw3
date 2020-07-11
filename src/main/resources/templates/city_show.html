@@ -45,7 +45,7 @@
 </table>
 <p>For a fabulous weekend get away for 2 to
   <inline th:text="${cityInfo.name}"></inline> sign up here.</p>
-<form>
+<form method="post">
   <input type="hidden" id="city" name="city" th:value="${cityInfo.name}">
   <label for="email">Email: </label><br>
   <input type="email" id="email" name="email"><br>

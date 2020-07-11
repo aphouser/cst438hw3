@@ -28,7 +28,7 @@ public class CityController {
 		}
 	}
 
-	@PostMapping("/cities/reservation")
+	@PostMapping("/cities/{city}")
 	public String createReservation(
 			@RequestParam("city") String cityName,
 			@RequestParam("level") String level,
