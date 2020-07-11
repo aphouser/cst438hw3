@@ -11,7 +11,7 @@
   <groupId>cst438</groupId>
   <artifactId>cst438hw2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>cst438hw2</name>
+  <name>cst438hw3</name>
   <description>cst438 homework 2 rest controller</description>
 
   <properties>

@@ -1,13 +1,13 @@
-package cst438hw2.controller;
+package cst438hw3.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import cst438hw2.domain.City;
-import cst438hw2.domain.CityInfo;
-import cst438hw2.service.CityService;
+import cst438hw3.domain.City;
+import cst438hw3.domain.CityInfo;
+import cst438hw3.service.CityService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

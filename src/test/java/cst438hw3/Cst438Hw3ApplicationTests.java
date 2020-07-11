@@ -1,10 +1,10 @@
-package cst438hw2;
+package cst438hw3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Cst438hw2ApplicationTests {
+class Cst438Hw3ApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package cst438hw2.domain;
+package cst438hw3.domain;
 
 public class CityInfo {
 	

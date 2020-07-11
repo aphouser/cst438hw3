@@ -1,10 +1,9 @@
-package cst438hw2.service;
+package cst438hw3.service;
 
-import java.util.Date;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import cst438hw2.domain.*;
+import cst438hw3.domain.*;
 
 @Service
 public class CityService {
