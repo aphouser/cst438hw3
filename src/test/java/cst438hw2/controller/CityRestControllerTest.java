@@ -39,8 +39,7 @@ public class CityRestControllerTest {
 	}
 	
 	@Test
-	public void contextLoads() {
-	}
+	public void contextLoads() {}
 
 	@Test
 	public void testCityFound() throws Exception {
@@ -88,5 +87,4 @@ public class CityRestControllerTest {
 		// verify that result is as expected
 		assertThat(response.getStatus()).isEqualTo(HttpStatus.NOT_FOUND.value());
 	}
-
 }
